@@ -1,6 +1,6 @@
 version: "3.9"
 services:
-  database:
+  hostname:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
@@ -15,4 +15,4 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - database
+      - hostname
