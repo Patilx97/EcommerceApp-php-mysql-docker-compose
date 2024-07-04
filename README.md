@@ -32,7 +32,7 @@ $ git clone https://github.com/stark303test/app-ecommerce-php-mysql.git
 ```
 ## 6. Now run the docker-compose file 
 ```bash
-   $ sudo docker-compose up -d 
+   $ docker-compose up --build -d 
 ```
 Now, you will see your containers running. 
 
