@@ -1,4 +1,4 @@
-# Run PHP-MYSQL project from docker-compose
+# PHP-MYSQL project from docker-compose
 
 ## 1. Launch EC2 instance & allow port 80
 ## 2. Connect to server via SSH or direct
